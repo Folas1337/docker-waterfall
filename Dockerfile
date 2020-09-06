@@ -20,4 +20,4 @@ WORKDIR /var/opt/waterfall
 VOLUME /var/opt/waterfall
 EXPOSE 25565
 ENTRYPOINT [ "java" ]
-CMD [ "-Xms128M", "-Xmx256M", "-jar", "/opt/waterfall/waterfall.jar" ]
+CMD [ "-Xms512M", "-Xmx512M", "-jar", "/opt/waterfall/waterfall.jar" ]
